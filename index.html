@@ -2,9 +2,16 @@
 <html lang="en">
     <head>
         <title>Is This Your Friend</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <p>Hello</p>
+        
+        <input type="text" id="userText" hint="enter username" value="justin"/>
+        <button id="analyze"> Analyze </button>
+        <p>User's posts are: <span id="posts"></span></p>
+        <p> The sentiment is: <span id="sentiment">???</span></p>
+        <script src="api.js"></script>
     </body>
 </html>
