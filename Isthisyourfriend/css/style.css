@@ -1,0 +1,71 @@
+.page1 {
+    background-image: linear-gradient(180deg, #9D7Ad6 8.94%, #4F518C 83.21%);
+    width: 1920px;
+    height: 1080px;
+}
+
+.icon {
+    position: absolute;
+    left: 885.66px;
+    top: 287px;
+}
+
+.title {
+    position: absolute;
+    left: 637px;
+    top: 495px;
+}
+
+.search {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 491px;
+    height: 73px;
+    left: 597px;
+    top: 612px;
+    background: transparent;
+    position: absolute;
+    border: none;
+}
+
+input {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    left: 7.94%;
+    right: 7.94%;
+    top: 34.25%;
+    bottom: 34.25%;
+    padding-left: 70px;
+}
+
+input ::placeholder {
+    position: absolute;
+    font-weight: normal;
+    line-height: 23px;
+    letter-spacing: 0.11em;
+    color: #545454;
+}
+
+.srch {
+    width: 491px;
+    height: 73px;
+    left: 597px;
+    top: 612px;
+    background: #FFFBFC;
+    box-shadow: inset 0px 4px 4px rgba(55, 55, 55, 0.25);
+    border-radius: 5px;
+    border-color: transparent;
+    border-width: 0px;
+}
+
+#btn_check {
+    position: absolute;
+    background-image: url(../image/Property\ 1=Default.png);
+    background-color: transparent;
+    left: 513px;
+    width: 180px;
+    height: 73px;
+    border: none;
+    cursor: pointer;
+}
