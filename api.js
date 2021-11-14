@@ -109,7 +109,7 @@ function getSentimentResult1(userText){
       method: 'post',
       headers:{
           'Content-Type': 'application/json',
-          'Ocp-Apim-Subscription-Key': '9818484e04f047caac8fb392a358299c'
+          'Ocp-Apim-Subscription-Key': 'API_KEY_HERE'
       },
       data: data
   }
