@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Is This Your Friend</title>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        
-        <input type="text" id="userText" hint="enter username" value="justin"/>
-        <button id="analyze"> Analyze </button>
-        <p>User's posts are: <span id="posts"></span></p>
-        <p> The sentiment is: <span id="sentiment">???</span></p>
-        <script src="api.js"></script>
+
+<head>
+    <title>Is This Your Friend</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <body style="margin: 0%;">
+        <div class="main">
+            <div class="page1" id="p1">
+                <div class="icon">
+                    <img src="./image/Logo.png" alt="Logo of Is this your friend">
+                </div>
+
+                <div class="title">
+                    <img src="./image/Logo-isthisyourfriend.png" alt="Title: Is this your friend">
+                </div>
+
+                <div class="search">
+                    <input class="srch" id="userText" type="text" name="" placeholder="Enter HackerNews username">
+                    <button id="analyze" class="btn" id="btn_check"></button>
+                </div>
+            </div>
+            <div class="page2 show-div">
+                    <div className="centered">
+                    <h1 class="comments_analysis">Comments Analysis</h1>
+                        <ul>
+                            <li><div class="sentiment" id="sentiment1"></div></li>
+                            <li><h3 class="post" id="post1"></h2></li>
+                            <li><div class="sentiment" id="sentiment2"></div></li>
+                            <li><h3 class="post" id="post2"></h2></li>
+                            <li><div class="sentiment" id="sentiment3"></div></li>
+                            <li><h3 class="post" id="post3"></h2></li>
+                        </ul>
+                    
+                    </span></p>
+                </div>
+                <script src="api.js"></script>
+            </div>
+            </div>
+        </div>
+
     </body>
+
 </html>
